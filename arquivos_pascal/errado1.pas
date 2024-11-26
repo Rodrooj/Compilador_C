@@ -2,7 +2,6 @@ program SomaDoisNumeros;
 var
     a: integer;
     b: integer;
-    soma: integer;
 begin
     a := 10;
     b := 20;

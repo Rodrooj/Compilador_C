@@ -37,3 +37,9 @@
 170	605	7543608702761398	CMakeFiles/compilador.dir/symbol_table.c.obj	925ca72abbb717d0
 121	612	7543608702270591	CMakeFiles/compilador.dir/parser.c.obj	827bce1c5b776219
 613	1228	7543608707197791	compilador.exe	bb5b79ae09f4c43
+26	417	7543616285932678	CMakeFiles/compilador.dir/main_old.c.obj	5fe0d22838fc8334
+64	511	7543616286301959	CMakeFiles/compilador.dir/main_not-working.c.obj	d738333648c2a44d
+46	514	7543616286130196	CMakeFiles/compilador.dir/main.c.obj	17056688a5e6ab36
+80	518	7543616286460356	CMakeFiles/compilador.dir/parser.c.obj	827bce1c5b776219
+95	525	7543616286621844	CMakeFiles/compilador.dir/symbol_table.c.obj	925ca72abbb717d0
+525	925	7543616290914260	compilador.exe	bb5b79ae09f4c43

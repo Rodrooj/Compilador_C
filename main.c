@@ -184,21 +184,21 @@ int main(int argc, char *argv[]) {
     }
 
     // Perform syntactic and semantic analysis
-    Parser parser;
-    initParser(&parser, &tokenList, output_file);
+    //Parser parser;
+    //initParser(&parser, &tokenList, output_file);
 
     fprintf(output_file, "\nSyntactic and Semantic Analysis Results:\n");
-    if (parse(&parser)) {
-        if (parser.error_count == 0) {
-            fprintf(output_file, "Analysis completed successfully with no errors.\n");
-        } else {
-            fprintf(output_file, "Analysis completed with %d errors.\n", parser.error_count);
-        }
-    } else {
-        fprintf(output_file, "Analysis failed with fatal errors.\n");
-    }
+    // if (parse(&parser)) {
+    //     if (parser.error_count == 0) {
+    //         fprintf(output_file, "Analysis completed successfully with no errors.\n");
+    //     } else {
+    //         fprintf(output_file, "Analysis completed with %d errors.\n", parser.error_count);
+    //     }
+    // } else {
+    //     fprintf(output_file, "Analysis failed with fatal errors.\n");
+    // }
 
-    freeParser(&parser);
+    //freeParser(&parser);
     fclose(output_file);
 
     // Print tokens

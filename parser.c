@@ -208,29 +208,29 @@ static bool parseStatementBlock(Parser *parser) {
     return true;
 }
 
-static bool parseProgram(Parser *parser) {
-    // Parse program header
-    if (!expect(parser, TOKEN_PROGRAM)) return false;
-    if (!expect(parser, TOKEN_IDENTIFIER)) return false;
-    if (!expect(parser, TOKEN_SEMICOLON)) return false;
-
-    // Parse variable declarations if present
-    if (parser->current_token && parser->current_token->token.type == TOKEN_VAR) {
-        advance(parser);
-        if (!parseVariableDeclaration(parser)) return false;
-    }
-
-    // Parse main program block
-    if (!expect(parser, TOKEN_BEGIN)) return false;
-
-    // Parse statements
-    if (!parseStatementBlock(parser)) return false;
-
-    if (!expect(parser, TOKEN_END)) return false;
-    if (!expect(parser, TOKEN_DOT)) return false;
-
-    return true;
-}
+// static bool parseProgram(Parser *parser) {
+//     // Parse program header
+//     if (!expect(parser, TOKEN_PROGRAM)) return false;
+//     if (!expect(parser, TOKEN_IDENTIFIER)) return false;
+//     if (!expect(parser, TOKEN_SEMICOLON)) return false;
+//
+//     // Parse variable declarations if present
+//     if (parser->current_token && parser->current_token->token.type == TOKEN_VAR) {
+//         advance(parser);
+//         if (!parseVariableDeclaration(parser)) return false;
+//     }
+//
+//     // Parse main program block
+//     if (!expect(parser, TOKEN_BEGIN)) return false;
+//
+//     // Parse statements
+//     if (!parseStatementBlock(parser)) return false;
+//
+//     if (!expect(parser, TOKEN_END)) return false;
+//     if (!expect(parser, TOKEN_DOT)) return false;
+//
+//     return true;
+// }
 
 void initParser(Parser *parser, TokenList *tokens, FILE *output_file) {
     parser->tokens = tokens;
@@ -241,9 +241,9 @@ void initParser(Parser *parser, TokenList *tokens, FILE *output_file) {
     initSymbolTable(parser->symbol_table);
 }
 
-bool parse(Parser *parser) {
-    return parseProgram(parser);
-}
+// bool parse(Parser *parser) {
+//     return parseProgram(parser);
+// }
 
 void freeParser(const Parser *parser) {
     freeSymbolTable(parser->symbol_table);
