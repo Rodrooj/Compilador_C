@@ -1,0 +1,52 @@
+Lexical Analysis Results:
+Type: 0    , Lexeme: program                       , Line: 1    , Column: 1    
+Type: 33   , Lexeme: ParOuImpar                    , Line: 1    , Column: 9    
+Type: 27   , Lexeme: ;                             , Line: 1    , Column: 19   
+Type: 1    , Lexeme: var                           , Line: 2    , Column: 1    
+Type: 33   , Lexeme: num                           , Line: 3    , Column: 5    
+Type: 28   , Lexeme: :                             , Line: 3    , Column: 8    
+Type: 2    , Lexeme: integer                       , Line: 3    , Column: 10   
+Type: 27   , Lexeme: ;                             , Line: 3    , Column: 17   
+Type: 6    , Lexeme: begin                         , Line: 4    , Column: 1    
+Type: 33   , Lexeme: num                           , Line: 5    , Column: 5    
+Type: 28   , Lexeme: :                             , Line: 5    , Column: 9    
+Type: 33   , Lexeme: =                             , Line: 5    , Column: 10   
+Type: 34   , Lexeme: 15                            , Line: 5    , Column: 12   
+Type: 27   , Lexeme: ;                             , Line: 5    , Column: 14   
+Type: 33   , Lexeme: if                            , Line: 6    , Column: 5    
+Type: 31   , Lexeme: (                             , Line: 6    , Column: 8    
+Type: 33   , Lexeme: num                           , Line: 6    , Column: 9    
+Type: 33   , Lexeme: mod                           , Line: 6    , Column: 13   
+Type: 34   , Lexeme: 2                             , Line: 6    , Column: 17   
+Type: 33   , Lexeme: =                             , Line: 6    , Column: 19   
+Type: 34   , Lexeme: 0                             , Line: 6    , Column: 21   
+Type: 32   , Lexeme: )                             , Line: 6    , Column: 22   
+Type: 33   , Lexeme: then                          , Line: 6    , Column: 24   
+Type: 33   , Lexeme: writeln                       , Line: 7    , Column: 9    
+Type: 31   , Lexeme: (                             , Line: 7    , Column: 16   
+Type: 33   , Lexeme: num                           , Line: 7    , Column: 17   
+Type: 33   , Lexeme: '                             , Line: 7    , Column: 21   
+Type: 33   , Lexeme: é                            , Line: 7    , Column: 23   
+Type: 33   , Lexeme: par'                          , Line: 7    , Column: 26   
+Type: 32   , Lexeme: )                             , Line: 7    , Column: 30   
+Type: 33   , Lexeme: else                          , Line: 8    , Column: 5    
+Type: 33   , Lexeme: writeln                       , Line: 9    , Column: 9    
+Type: 31   , Lexeme: (                             , Line: 9    , Column: 16   
+Type: 33   , Lexeme: num                           , Line: 9    , Column: 17   
+Type: 33   , Lexeme: '                             , Line: 9    , Column: 21   
+Type: 33   , Lexeme: é                            , Line: 9    , Column: 23   
+Type: 33   , Lexeme: ímpar'                       , Line: 9    , Column: 26   
+Type: 32   , Lexeme: )                             , Line: 9    , Column: 33   
+Type: 27   , Lexeme: ;                             , Line: 9    , Column: 34   
+Type: 7    , Lexeme: end                           , Line: 10   , Column: 1    
+Type: 30   , Lexeme: .                             , Line: 10   , Column: 4    
+Type: 33   , Lexeme: \                             , Line: 11   , Column: 1    
+Type: 27   , Lexeme: ;                             , Line: 11   , Column: 2    
+Type: 33   , Lexeme: C                             , Line: 11   , Column: 3    
+Type: 28   , Lexeme: :                             , Line: 11   , Column: 4    
+Type: 33   , Lexeme: \WINDO                        , Line: 11   , Column: 5    
+Type: 38   , Lexeme: EOF                           , Line: 11   , Column: 11   
+
+Syntactic and Semantic Analysis Results:
+Syntax Error: Expected token type 16 at line 5, column 9
+Analysis failed with fatal errors.
